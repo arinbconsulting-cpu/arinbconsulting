@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Close nav on anchor click (mobile)
   document.querySelectorAll('.nav-links a').forEach(function (link) {
     link.addEventListener('click', function () {
       navLinks.classList.remove('open');
